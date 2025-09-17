@@ -1,0 +1,461 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            10,
+            10
+        ]
+    },
+    {
+        "type": "circle",
+        "cen": [
+            -50,
+            -120
+        ],
+        "end": [
+            -50,
+            -120
+        ],
+        "loc": [
+            50.0,
+            35.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "circle",
+        "cen": [
+            -50,
+            -120
+        ],
+        "end": [
+            -50,
+            -120
+        ],
+        "loc": [
+            50.0,
+            35.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            0,
+            -50
+        ],
+        "end": [
+            0,
+            0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "line",
+        "st": [
+            0,
+            -160
+        ],
+        "end": [
+            0,
+            -110
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "arc",
+        "st": [
+            160,
+            -160
+        ],
+        "end": [
+            180,
+            -180
+        ],
+        "loc": [
+            -160.0,
+            -250.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            -1.0
+        ]
+    },
+    {
+        "type": "arc",
+        "st": [
+            140,
+            -180
+        ],
+        "end": [
+            160,
+            -200
+        ],
+        "loc": [
+            -160.0,
+            110.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "circle",
+        "cen": [
+            0,
+            -80
+        ],
+        "end": [
+            30,
+            -80
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -180
+        ],
+        "nam": "@instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -180.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -40
+        ],
+        "nam": "@THETA",
+        "def": "[@THETA:%:0]",
+        "txt": "[@THETA:%:0]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -40.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -50
+        ],
+        "nam": "@PHASE",
+        "def": "[@PHASE:%:0]",
+        "txt": "[@PHASE:%:0]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -50.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -70
+        ],
+        "nam": "@TD",
+        "def": "[@TD:%:0]",
+        "txt": "[@TD:%:0]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -70.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -90
+        ],
+        "nam": "@FREQ",
+        "def": "[@FREQ:freq=%:1k]",
+        "txt": "[@FREQ:freq=%:1k]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -90.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -130
+        ],
+        "nam": "@VA",
+        "def": "[@VA:VA=%:0]",
+        "txt": "[@VA:VA=%:0]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -130.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -150
+        ],
+        "nam": "@AC",
+        "def": "[@AC:AC=%:1]",
+        "txt": "[@AC:AC=%:1]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -150.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -160
+        ],
+        "nam": "@DC",
+        "def": "[@DC:DC=%:0]",
+        "txt": "[@DC:DC=%:0]",
+        "val": "",
+        "vis": false,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -160.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "unknown"
+    },
+    {
+        "type": "unknown"
+    },
+    {
+        "type": "pin",
+        "st": [
+            -50,
+            -30
+        ],
+        "nam": "MINUS",
+        "pd": "Inout",
+        "pt": "Signal",
+        "loc": [
+            50.0,
+            30.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "unknown"
+    },
+    {
+        "type": "unknown"
+    },
+    {
+        "type": "pin",
+        "st": [
+            0,
+            -160
+        ],
+        "nam": "PLUS",
+        "pd": "Inout",
+        "pt": "Signal",
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            30,
+            -110
+        ],
+        "nam": "@cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            -20.0,
+            -70.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            20,
+            -110
+        ],
+        "nam": "@V0",
+        "def": "[@V0:V0=%:0]",
+        "txt": "[@V0:V0=%:0]",
+        "val": "",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 10,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            20.0,
+            -110.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "attr",
+        "nam": "XyceSymbolNetlistLine",
+        "def": "V@instName @pinList DC @DC  AC @AC SIN ( @V0 @VA  @FREQ @TD  @THETA  @PHASE )"
+    },
+    {
+        "type": "attr",
+        "nam": "pinOrder",
+        "def": "PLUS, MINUS"
+    }
+]

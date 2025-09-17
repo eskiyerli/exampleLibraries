@@ -1,0 +1,104 @@
+[
+    {
+        "cellView": "symbol"
+    },
+    {
+        "snapGrid": [
+            5,
+            5
+        ]
+    },
+    {
+        "type": "rect",
+        "rect": [
+            100.0,
+            -100.0,
+            265.0,
+            -5.0
+        ],
+        "loc": [
+            0.0,
+            0.0
+        ],
+        "ang": 0.0,
+        "fl": [
+            1.0,
+            1.0
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            150,
+            -75
+        ],
+        "nam": "@cellName",
+        "def": "[@cellName]",
+        "txt": "[@cellName]",
+        "val": "?",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            140.0,
+            -80.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            10,
+            10
+        ],
+        "nam": "@w",
+        "def": "[@w:w=%:2]",
+        "txt": "[@w:w=%:2]",
+        "val": "?",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            140.0,
+            -55.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    },
+    {
+        "type": "label",
+        "st": [
+            260,
+            -130
+        ],
+        "nam": "@instName",
+        "def": "[@instName]",
+        "txt": "[@instName]",
+        "val": "?",
+        "vis": true,
+        "lt": "NLPLabel",
+        "ht": 12,
+        "al": "Left",
+        "or": "R0",
+        "use": "Normal",
+        "loc": [
+            260.0,
+            -130.0
+        ],
+        "fl": [
+            1,
+            1
+        ]
+    }
+]
